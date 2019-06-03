@@ -1760,7 +1760,7 @@ pre .javascript .function {
   font-size: 13px;
   color: #999;
 }
-img:hover {
+.site-author-image:hover {
 /* 鼠标经过停止头像旋转 
   -webkit-animation-play-state:paused;
   animation-play-state:paused;*/
@@ -1921,7 +1921,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #20cf9d;
+  background: #e441ff;
 }
 .links-of-blogroll {
   font-size: 13px;
