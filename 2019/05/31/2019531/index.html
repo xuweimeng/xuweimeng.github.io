@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo基础,hello world,中国,">
+  <meta name="keywords" content="react,vue,javascript,es6,webpack,">
 
 
 
@@ -80,14 +80,14 @@
 
 
 <meta name="description" content="前端开发">
-<meta name="keywords" content="hexo基础,hello world,中国">
+<meta name="keywords" content="react,vue,javascript,es6,webpack">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2019531">
 <meta property="og:url" content="http://yoursite.com/2019/05/31/2019531/index.html">
 <meta property="og:site_name" content="smile life">
 <meta property="og:description" content="前端开发">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-03T02:59:26.566Z">
+<meta property="og:updated_time" content="2019-06-03T03:27:02.134Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2019531">
 <meta name="twitter:description" content="前端开发">
@@ -147,7 +147,6 @@
 
   <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
-
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -187,6 +186,36 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
           </a>
         </li>
       
@@ -308,6 +337,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/05/31/2019531/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/31/2019531/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -340,6 +379,14 @@
     
 
     
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/wechat-qcode.jpg" alt="john wechat" style="width: 200px; max-width: 100%;">
+    <div>欢迎扫一扫上面的微信公众号订阅我的博客</div>
+</div>
+
+      </div>
+    
 
     
 
@@ -349,11 +396,15 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo基础/" rel="tag"># hexo基础</a>
+            <a href="/tags/react/" rel="tag"># react</a>
           
-            <a href="/tags/hello-world/" rel="tag"># hello world</a>
+            <a href="/tags/vue/" rel="tag"># vue</a>
           
-            <a href="/tags/中国/" rel="tag"># 中国</a>
+            <a href="/tags/javascript/" rel="tag"># javascript</a>
+          
+            <a href="/tags/es6/" rel="tag"># es6</a>
+          
+            <a href="/tags/webpack/" rel="tag"># webpack</a>
           
         </div>
       
@@ -375,6 +426,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/03/something/" rel="prev" title="something">
+                something <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -402,6 +457,16 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
 
   
 
@@ -446,7 +511,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -468,7 +533,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -521,7 +586,8 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -530,20 +596,11 @@
   
 </div>
 
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-
-
-
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
         
 
 
@@ -586,11 +643,19 @@
   
 
 
+  
 
 
 
 
 
+  
+  
+
+
+
+  
+  
 
 
 
@@ -624,6 +689,26 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
@@ -661,6 +746,26 @@
 
   
 
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2019/05/31/2019531/';
+          this.page.identifier = '2019/05/31/2019531/';
+          this.page.title = '2019531';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
 
   
 
