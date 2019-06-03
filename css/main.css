@@ -1096,7 +1096,7 @@ pre .javascript .function {
   position: relative;
 }
 .headband {
-  height: 3px;
+  height: 110px!important;
   background: #222;
 }
 .site-meta {
